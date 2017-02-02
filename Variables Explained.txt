@@ -1,0 +1,25 @@
+A veriable is like a container. You store stuff in it. Also just like a container, there are different sizes that you must use to store the different things you may need. When you make a variable in C# or any coding language for that matter, it allocates a little space for your data to be stored. Basically it set's a container aside in the code just for whatever you want to put in it. But what size is the container? What can you put in it? That is determined by the type of variable you declare when you first make the variable. This type can't be changed, so you must choose it according to the need and function that the variable will be doing. The way to declare a variable is by first stating the type of variable it will be, naming the variable and then stating what you want in the variable.
+
+For example, say we want to store someones username. A username will have numbers and letters, and possibly even symbols so we must use a variable type that can store all that, so we would want to use the string variable. So to do this we simply would state the type, then name our variable something that has meaning and will be recognizable as housing this information, something like "username". Then after that we would assign it the username. Let's say the username is Bob36905. The line of code would look like this:
+
+string username = "Bob36905";
+
+Now that the name is assigned to a variable, we can call on it and put it where ever we want in the code. Variables is one of the foundational units of coding, for if you can't store information, there would be nothing for code to process. This text document is also being stored in a string type variable. But strings aren't the only types or "containers" we have when dealing with variables. No, there are quite a few but I'll only go over the most common, cause I don't even know what kind of things you'd use half the types for. lol
+
+The next thing we might want is a number. But not just a plain number as the string would suffice for that, we want to make something that we can compare and even do math equations with. In this case, we'll say we're trying to store someones level on a video game. So what type would this variable require? Well, it will be a whole number, so we'll use an integer for it. To create a ingeter type file, we simply would put this code:
+
+int charactersLevel = 1;
+
+So we've now done a variable containing an integer. But what if we want to store a decimal? We can't use the integer so we must use a different type. That's where the double type comes in. A double variable can store decimals. So let's say whenever the character levels up on this little video game they're playing, their stats get times by 1.25. So to make the variable needed for the process, we would type this code:
+
+double levelUpStats = 1.25;
+
+So the last one I feel is pretty common to use are boolean variables. A boolean is just a basic true or false statement. Say we want to know if the player is online on the video game. A boolean variable would work perfectly for this, because all we need to know is a yes or no kinda response. So to code the veriable needed for this check, we would just type this code:
+
+bool isOnline = false;
+
+The last common type of variable is the character variable. This variable houses a single character. I don't use it much but it does seem to be used in some places. I really can't think of a good example for this one, but I do know how to declare this type of variable.
+
+char theCharacterK = 'k';
+
+And that's the end. Variables are containters. Thanks for reading. Goodbye!~
